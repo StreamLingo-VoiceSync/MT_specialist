@@ -18,7 +18,7 @@ This project implements a high-performance speech translation pipeline that tran
 
 - 📊 BLEU score evaluation for translation quality benchmarking
 
-##✨ Key Features
+## ✨ Key Features
 
 - 🎤 Accurate Audio Transcription
 Utilizes OpenAI’s Whisper model (large) for multilingual, high-accuracy speech recognition.
