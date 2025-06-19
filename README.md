@@ -130,8 +130,10 @@ On macOS (with Homebrew): brew install ffmpeg
 
 - Coverage: Supports over 200 languages (used here for English–Chinese)
 
-📁 Sample Output
+📁 Sample Outputs
+
 **1.Audio Translation JSON**
+
 ```
 {
   "filename": "sample.wav",
@@ -143,7 +145,9 @@ On macOS (with Homebrew): brew install ffmpeg
   "word_details": [...]
 }
 ```
+
 **2.Text Translation JSON**
+
 ```
 {
   "timestamp": "20250617_162938",
