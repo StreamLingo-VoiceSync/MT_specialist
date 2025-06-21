@@ -166,15 +166,15 @@ On macOS (with Homebrew): brew install ffmpeg
 4. The translated text is displayed.
 
 ## Main Challenges Faced
-- **Model Accuracy:** Smaller models under‑perform; larger models need more compute.  
-- **Performance Issues:** Real‑time inference requires GPU acceleration.  
+- **Model Accuracy:** Smaller models under‑perform; larger models require more compute.  
+- **Performance Issues:** Real‑time inference demands GPU acceleration.  
 - **Handling Idioms:** Expressions like “break a leg” must be mapped to their true meaning before translation.
 
 ## Next Steps
 - **Add More Languages:** Extend support to Hindi, Spanish, French, etc.  
 - **Integrate TTS:** Provide real‑time voice playback of translated text.  
-- **Improve Context & Tone:** Build advanced idiom lexicons and sentiment‑aware translation.
-- **Advanced Context Handling :** Integrate dynamic idiom lexicons and BERT-based re-ranking for more natural phrasing.
+- **Advanced Context Handling:** Integrate dynamic idiom lexicons and BERT-based re‑ranking for more natural phrasing.  
+- **Emotion & Tone Preservation:** Incorporate sentiment analysis to maintain the speaker’s original style, emotion, and formality.  
 
 
 ## 🤝 Contributions
