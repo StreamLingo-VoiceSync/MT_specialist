@@ -159,6 +159,24 @@ On macOS (with Homebrew): brew install ffmpeg
 }
 ```
 
+## How It Works
+1. **Whisper** transcribes the input speech into text.  
+2. The raw transcript is optionally optimized for context (e.g., idiom replacement).  
+3. **NLLB‑200** translates the (optimized) text into the target language.  
+4. The translated text is displayed.
+
+## Main Challenges Faced
+- **Model Accuracy:** Smaller models under‑perform; larger models need more compute.  
+- **Performance Issues:** Real‑time inference requires GPU acceleration.  
+- **Handling Idioms:** Expressions like “break a leg” must be mapped to their true meaning before translation.
+
+## Next Steps
+- **Add More Languages:** Extend support to Hindi, Spanish, French, etc.  
+- **Integrate TTS:** Provide real‑time voice playback of translated text.  
+- **Improve Context & Tone:** Build advanced idiom lexicons and sentiment‑aware translation.
+- **Advanced Context Handling :** Integrate dynamic idiom lexicons and BERT-based re-ranking for more natural phrasing.
+
+
 ## 🤝 Contributions
 
 Contributions are welcome!
