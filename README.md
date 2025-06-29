@@ -165,18 +165,6 @@ On macOS (with Homebrew): brew install ffmpeg
 3. **NLLB‑200** translates the (optimized) text into the target language.  
 4. The translated text is displayed.
 
-## Main Challenges Faced
-- **Model Accuracy:** Smaller models under‑perform; larger models require more compute.  
-- **Performance Issues:** Real‑time inference demands GPU acceleration.  
-- **Handling Idioms:** Expressions like “break a leg” must be mapped to their true meaning before translation.
-
-## Next Steps
-- **Add More Languages:** Extend support to Hindi, Spanish, French, etc.  
-- **Integrate TTS:** Provide real‑time voice playback of translated text.  
-- **Advanced Context Handling:** Integrate dynamic idiom lexicons and BERT-based re‑ranking for more natural phrasing.  
-- **Emotion & Tone Preservation:** Incorporate sentiment analysis to maintain the speaker’s original style, emotion, and formality.  
-
-
 ## 🤝 Contributions
 
 Contributions are welcome!
